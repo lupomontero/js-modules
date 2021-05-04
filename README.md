@@ -32,6 +32,7 @@ historia cuanto menos peculiar**.
 
 ## ¿Por qué módulos?
 
+* Separación de responsabilidades
 * Encapsulación (scope, namespaces)
 * Reuso
 * Arquitectura
@@ -39,21 +40,52 @@ historia cuanto menos peculiar**.
 
 ## 1991-1995: Prehistoria
 
+![](https://applauss.com/wp-content/uploads/2016/08/Tim-Berners-Lee-Dia-Internauta-770x513.jpg)
+
 ## 1995-2001: 1era guerra de los browsers
+
+![](https://miro.medium.com/max/1200/1*bdpyGbH7UGptT81Poz3OLQ.png)
+
+El año 1995 es un punto de inflexión en la evolución de la web. Por un lado,
+el gobierno de EEUU deja de financiar parte de la infraestructura de la internet
+y esta queda por primera vez totalmente privatizada. La internet y la web pasan
+de ser algo restringido al mundo académico, de la investigación y militar, y
+comienza a estar disponible también para el público en general.
+
+En este contexto ese mismo año AOL y Prodigy comienzan a ofrecer conexión a
+internet en EEUU.
+
+Durante el transcurso de 1995 verán la luz no solo JavaScript, sino también PHP,
+Ruby y Java.
 
 * **Netscape vs Internet Explorer**
 * Win95 (Plus!)
-* > "First browser war ended with Internet Explorer having no remaining serious
-  > competition for its market share. This also brought an end to the rapid
-  > innovation in web browsers; until 2006, there was only one new version of
-  > Internet Explorer since the version 6.0 release in 2001."
-  > https://en.m.wikipedia.org/wiki/Browser_wars
+
+> "First browser war ended with Internet Explorer having no remaining serious
+> competition for its market share. This also brought an end to the rapid
+> innovation in web browsers; until 2006, there was only one new version of
+> Internet Explorer since the version 6.0 release in 2001."
+> https://en.m.wikipedia.org/wiki/Browser_wars
+
+> Like HTML 2, HTML 3 did not become a standard. HTML 3.2 was the first
+> formally approved, industry-wide HTML standard, a W3C "Recommendation."
+>
+> Source: http://www.martinrinehart.com/frontend-engineering/engineers/html/html-tag-history.html
+
+> The `<SCRIPT>` tag was "reserved for future use with scripting languages."
+> It was one of the `<HEAD>` elements.
 
 ## 2001-2006: La era oscura
 
+![](https://images.unsplash.com/photo-1543395338-56ad3caff2ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
+
 ## 2006-2009: En busca de la luz
 
+![](https://images.unsplash.com/photo-1569915439014-a351eceffbfa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
+
 ## 2009-2015: Nuevas fronteras
+
+![](https://images.unsplash.com/photo-1534685785745-60a2cea0ec34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80)
 
 > "The CommonJS group defined a module format to solve JavaScript scope issues
 > by making sure each module is executed in its namespace. This is achieved by
@@ -105,14 +137,8 @@ historia cuanto menos peculiar**.
 
 ### 1997
 
-* 14 enero: Publicación de **HTML 3.2**.
-  > Like HTML 2, HTML 3 did not become a standard. HTML 3.2 was the first
-  > formally approved, industry-wide HTML standard, a W3C "Recommendation."
-  >
-  > Source: http://www.martinrinehart.com/frontend-engineering/engineers/html/html-tag-history.html
-
-  > The `<SCRIPT>` tag was "reserved for future use with scripting languages."
-  > It was one of the `<HEAD>` elements.
+* 14 enero: Publicación de **HTML 3.2**. Etiqueta `<SCRIPT>` formalmente
+  reservada para futuro uso de lenguajes scripting.
 * Junio: Primera edición de [**ECMAScript**](https://en.wikipedia.org/wiki/ECMAScript).
 
 ### 1998
@@ -219,3 +245,7 @@ historia cuanto menos peculiar**.
 ### 2019
 
 * Abril: [Memorandum of Understanding Between W3C and WHATWG](https://www.w3.org/2019/04/WHATWG-W3C-MOU.html)
+
+***
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
