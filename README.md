@@ -49,11 +49,20 @@ entorno donde nacerá después nuestro estimado _JavaScript_.
 
 Tim Berners-Lee, inventor de la web (no confundir con la internet), construyó el
 primer navegador web, así como el primer servidor web en CERN, Suiza. Comienza
-el trabajo sobre la web (WorldWideWeb) como proyecto personal alrededor de 1989,
+el trabajo sobre la web (WorldWideWeb) como proyecto personal alrededor de 1998,
 pero es en 2001 cuando lo presenta al mundo, ya como un proyecto bajo el
 paraguas de CERN. Este es el nacimiento de la plataforma web, y la primera
 descripción de `HTTP` y `HTML` entre otras _piezas fundamentales_ del _stack_ al
 que hoy en día estamos tan acostumbrados.
+
+En este momento, el principal objetivo de la web es poder compartir documentos,
+vincularlos, y que sea en un formato universal e interoperable (agnóstico de
+sistema operativo o software específico). Todavía no se proyecta como una
+plataforma donde ofrecer _aplicaciones_, y todavía no tenemos la habilidad de
+ejecutar scripts en el cliente; JavaScript nacerá en pocos años más, aunque
+inicialmente tampoco con la intención de ser un lenguaje de uso general con el
+que construir aplicaciones complejas, eso será una grata sorpresa que nos traerá
+el futuro.
 
 En paralelo, en el año 2001 ocurren otros 2 eventos que junto a la web cambiarán
 el destino de la computación como la conocemos hoy, nada más y nada menos que
@@ -116,6 +125,8 @@ Desde mi punto de vista, 2006 representa un momento en el tiempo en el que la
 incipiente _comunidad de usuarios_ de JavaScript comienza a encontrar su
 identidad, su _estilo_, y finalmente comenzamos a soñar con un futuro mejor;
 todo esto en gran parte a `jQuery` y `YUI`.
+
+jQuery en particular nos dió una API estable y predecible sobre la que
 
 ## 2009-2015: Nuevas fronteras
 
