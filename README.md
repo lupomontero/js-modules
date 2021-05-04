@@ -44,13 +44,13 @@ historia cuanto menos peculiar**.
 
 Ninguna historia se origina de la nada. Antes de embarcarnos en este viaje a
 través de la evolución de la _idea_ de _modularidad_ en JavaScript, me gustaría
-primero presentar a la _web_, y en particular al _navegador_ web, que es el
-entorno donde nacerá después nuestro estimado _JavaScript_.
+primero presentar a la **_web_**, y en particular al **_navegador_ web**, que es
+el entorno donde nacerá después nuestro estimado _JavaScript_.
 
 Tim Berners-Lee, inventor de la web (no confundir con la internet), construyó el
 primer navegador web, así como el primer servidor web en CERN, Suiza. Comienza
-el trabajo sobre la web (WorldWideWeb) como proyecto personal alrededor de 1998,
-pero es en 2001 cuando lo presenta al mundo, ya como un proyecto bajo el
+el trabajo sobre la web (`WorldWideWeb`) como proyecto personal alrededor de
+1998, pero es en 2001 cuando lo presenta al mundo, ya como un proyecto bajo el
 paraguas de CERN. Este es el nacimiento de la plataforma web, y la primera
 descripción de `HTTP` y `HTML` entre otras _piezas fundamentales_ del _stack_ al
 que hoy en día estamos tan acostumbrados.
@@ -66,16 +66,26 @@ el futuro.
 
 En paralelo, en el año 2001 ocurren otros 2 eventos que junto a la web cambiarán
 el destino de la computación como la conocemos hoy, nada más y nada menos que
-el nacimiento de _Linux_ y _Python_.
+el nacimiento de **_Linux_** y **_Python_**.
 
 La web fue concebida desde un inicio como un proyecto/recurso abierto. Solo un
 año más tarde, en 1992, Tim Berners-Lee ya había hecho disponible la librería
-`libwww`, que sería el punto de partida para el desarrollo de la primera
-generación de navegadores web para UNIX, como Line Mode, Viola y otros.
+[`libwww`](https://en.wikipedia.org/wiki/Libwww), que sería el punto de partida
+para el desarrollo de la primera generación de navegadores web para UNIX, como
+Line Mode, Viola y otros.
 
-1993: Mosaic (NCSA), Lynx, ...
+En 1993 aparece **Mosaic**, desarrollado por NCSA (National Centre for
+Supercomputing Applications), el cual servirá de base para varios navegadores,
+entre ellos **SpyGlass Mosaic** en 1994, que será después el punto de partida
+para la primera versión de **Internet Explorer** en 1995.
 
-1994: SpyGlass, W3C, Netscape Navigator
+Por otro lado, en 1994 también aparece **Netscape Navigator**, desarrollado por
+Marc Andreessen, ex-ingeniero de Mosaic, pero que en vez de evolucionar el
+código fuente de Mosaic re-escribe desde cero el navegador.
+
+Este mismo año, en 1994, se funda [**W3C**](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium)
+(World Wide Web Consortium) con la intención de guiar y estandarizar las
+tecnologías del stack de la web.
 
 ## 1995-2001: 1era guerra de los browsers
 
@@ -87,11 +97,11 @@ y esta queda por primera vez totalmente privatizada. La internet y la web dejan
 de ser algo limitado al mundo académico, de la investigación y militar, y
 comienzan a estar disponibles también para el público en general.
 
-En este contexto, ese mismo año AOL y Prodigy comienzan a ofrecer conexión a
+En este contexto, ese mismo año **AOL** y Prodigy comienzan a ofrecer conexión a
 internet en EEUU.
 
-Durante el transcurso de 1995 verán la luz no solo JavaScript, sino también PHP,
-Ruby y Java.
+Durante el transcurso de 1995 verán la luz no solo **_JavaScript_**, sino
+también **_PHP_**, **_Ruby_** y **_Java_**.
 
 * **Netscape vs Internet Explorer**
 * Win95 (Plus!)
