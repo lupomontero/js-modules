@@ -42,17 +42,43 @@ historia cuanto menos peculiar**.
 
 ![](https://applauss.com/wp-content/uploads/2016/08/Tim-Berners-Lee-Dia-Internauta-770x513.jpg)
 
+Ninguna historia se origina de la nada. Antes de embarcarnos en este viaje a
+través de la evolución de la _idea_ de _modularidad_ en JavaScript, me gustaría
+primero presentar a la _web_, y en particular al _navegador_ web, que es el
+entorno donde nacerá después nuestro estimado _JavaScript_.
+
+Tim Berners-Lee, inventor de la web (no confundir con la internet), construyó el
+primer navegador web, así como el primer servidor web en CERN, Suiza. Comienza
+el trabajo sobre la web (WorldWideWeb) como proyecto personal alrededor de 1989,
+pero es en 2001 cuando lo presenta al mundo, ya como un proyecto bajo el
+paraguas de CERN. Este es el nacimiento de la plataforma web, y la primera
+descripción de `HTTP` y `HTML` entre otras _piezas fundamentales_ del _stack_ al
+que hoy en día estamos tan acostumbrados.
+
+En paralelo, en el año 2001 ocurren otros 2 eventos que junto a la web cambiarán
+el destino de la computación como la conocemos hoy, nada más y nada menos que
+el nacimiento de _Linux_ y _Python_.
+
+La web fue concebida desde un inicio como un proyecto/recurso abierto. Solo un
+año más tarde, en 1992, Tim Berners-Lee ya había hecho disponible la librería
+`libwww`, que sería el punto de partida para el desarrollo de la primera
+generación de navegadores web para UNIX, como Line Mode, Viola y otros.
+
+1993: Mosaic (NCSA), Lynx, ...
+
+1994: SpyGlass, W3C, Netscape Navigator
+
 ## 1995-2001: 1era guerra de los browsers
 
 ![](https://miro.medium.com/max/1200/1*bdpyGbH7UGptT81Poz3OLQ.png)
 
 El año 1995 es un punto de inflexión en la evolución de la web. Por un lado,
 el gobierno de EEUU deja de financiar parte de la infraestructura de la internet
-y esta queda por primera vez totalmente privatizada. La internet y la web pasan
-de ser algo restringido al mundo académico, de la investigación y militar, y
-comienza a estar disponible también para el público en general.
+y esta queda por primera vez totalmente privatizada. La internet y la web dejan
+de ser algo limitado al mundo académico, de la investigación y militar, y
+comienzan a estar disponibles también para el público en general.
 
-En este contexto ese mismo año AOL y Prodigy comienzan a ofrecer conexión a
+En este contexto, ese mismo año AOL y Prodigy comienzan a ofrecer conexión a
 internet en EEUU.
 
 Durante el transcurso de 1995 verán la luz no solo JavaScript, sino también PHP,
@@ -77,15 +103,23 @@ Ruby y Java.
 
 ## 2001-2006: La era oscura
 
-![](https://images.unsplash.com/photo-1543395338-56ad3caff2ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
+![](https://eclecticlightdotcom.files.wordpress.com/2017/08/turnerfishermenatsea.jpg?w=1024)
+
+Terminada la guerra de los browsers, entramos a un período dominado por Internet
+Explorer y un estancamiento en el desarrollo del stack web.
 
 ## 2006-2009: En busca de la luz
 
-![](https://images.unsplash.com/photo-1569915439014-a351eceffbfa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
+![](https://hemophilianewstoday.com/wp-content/uploads/2019/12/shutterstock_387741175-1000x480-1-e1576695181709.jpg)
+
+Desde mi punto de vista, 2006 representa un momento en el tiempo en el que la
+incipiente _comunidad de usuarios_ de JavaScript comienza a encontrar su
+identidad, su _estilo_, y finalmente comenzamos a soñar con un futuro mejor;
+todo esto en gran parte a `jQuery` y `YUI`.
 
 ## 2009-2015: Nuevas fronteras
 
-![](https://images.unsplash.com/photo-1534685785745-60a2cea0ec34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80)
+![](https://media.istockphoto.com/vectors/vector-retro-astronaut-couple-on-a-planet-illustration-vector-id1180334708?k=6&m=1180334708&s=612x612&w=0&h=s4bJDIdYDVwiJZOJS78ZeeGqxd0dPH8lCPIR46Kwap4=)
 
 > "The CommonJS group defined a module format to solve JavaScript scope issues
 > by making sure each module is executed in its namespace. This is achieved by
@@ -95,6 +129,8 @@ Ruby y Java.
 > — Webpack Docs
 
 ## 2015-presente: Consolidación
+
+...
 
 ***
 
