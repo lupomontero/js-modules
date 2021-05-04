@@ -8,13 +8,13 @@
 * [1995-2001: 1era guerra de los browsers](#)
   - [Ejemplo: Global party](#)
 * [2001-2006: La era oscura](#)
-* [2006-2009: Coming together... jQuery, YUI, Dojo...](#)
+* [2006-2009: En busca de la luz (jQuery, YUI, Dojo...)](#)
   - [Ejemplo: Clausuras e IIFEs](#)
   - [Ejemplo: jQuery plugin?](#)
-* [2009-2015: Node.js, NPM, CommonJS, Require.js, AMD, UMD, ...](#)
+* [2009-2015: Nuevas fronteras (Node.js, NPM, CommonJS, Require.js, AMD, UMD, ...)](#)
   - [Ejemplo: AMD, CommonJS, UMD](#)
   - [Ejemplo: Node.js y NPM](#)
-* [2015-present: Webpack, ES Modules](#)
+* [2015-presente: Consolidación (ES6+, Webpack, Babel, ES Modules)](#)
   - [Ejemplo: Bundlers (webpack)](#)
   - [ES Modules](#)
 * [Cronología](#)
@@ -25,10 +25,10 @@
 
 ![battle](./battle.png)
 
-JavaScript, como lenguaje de programación, es conocido por tener una barrera
+**JavaScript**, como lenguaje de programación, es conocido por tener una barrera
 de entrada relativamente baja, dado su carácter dinámico y laxo. Al mismo tiempo
-es un lenguaje que esconde un montón de _quirks_ y cosas raras producto de una
-historia cuanto menos peculiar.
+es un lenguaje que **esconde un montón de _quirks_ y cosas raras producto de una
+historia cuanto menos peculiar**.
 
 ## ¿Por qué módulos?
 
@@ -40,6 +40,31 @@ historia cuanto menos peculiar.
 ## 1991-1995: Prehistoria
 
 ## 1995-2001: 1era guerra de los browsers
+
+* **Netscape vs Internet Explorer**
+* Win95 (Plus!)
+* > "First browser war ended with Internet Explorer having no remaining serious
+  > competition for its market share. This also brought an end to the rapid
+  > innovation in web browsers; until 2006, there was only one new version of
+  > Internet Explorer since the version 6.0 release in 2001."
+  > https://en.m.wikipedia.org/wiki/Browser_wars
+
+## 2001-2006: La era oscura
+
+## 2006-2009: En busca de la luz
+
+## 2009-2015: Nuevas fronteras
+
+> "The CommonJS group defined a module format to solve JavaScript scope issues
+> by making sure each module is executed in its namespace. This is achieved by
+> forcing modules to explicitly export those variables it wants to expose to
+> the “universe,” and also by defining those other modules required to
+> properly work."
+> — Webpack Docs
+
+## 2015-presente: Consolidación
+
+***
 
 ## Cronología
 
@@ -61,6 +86,7 @@ historia cuanto menos peculiar.
 
 ### 1994
 
+* Mayo: SpyGlass licencia código de Mosaic.
 * 1 octubre: Formación de [**W3C**](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium).
 * 15 diciembre: Sale [**Netscape Navigator**](https://en.wikipedia.org/wiki/Netscape_Navigator). (Marc Andreessen ex-Mosaic engineer)
 
@@ -69,27 +95,38 @@ historia cuanto menos peculiar.
 * **Intenet totalmente privatizada** por 1era vez. No más financiación del
   gobierno de EEUU.
 * **AOL** y Prodigy comienzan a ofrecer conexión a internet.
-* **Internet Explorer**
-* **JavaScript**
-* PHP, Java, Ruby.
+* **Internet Explorer** (basado en SpyGlass Mosaic)
+* **JavaScript** (Brendan Eich, Netscape Navigator)
+* Este año también aparecen PHP, Java y Ruby.
 
 ### 1996
 
 * 17 diciembre: 1era versión de **CSS**.
 
-### 1995 - 2001: 1st browser wars
-
-* **Netscape vs Internet Explorer**
-* Win95 (Plus!)
-* > "First browser war ended with Internet Explorer having no remaining serious
-  > competition for its market share. This also brought an end to the rapid
-  > innovation in web browsers; until 2006, there was only one new version of
-  > Internet Explorer since the version 6.0 release in 2001."
-  > https://en.m.wikipedia.org/wiki/Browser_wars
-
 ### 1997
 
-* Primera edición de [**ECMAScript**](https://en.wikipedia.org/wiki/ECMAScript).
+* 14 enero: Publicación de **HTML 3.2**.
+  > Like HTML 2, HTML 3 did not become a standard. HTML 3.2 was the first
+  > formally approved, industry-wide HTML standard, a W3C "Recommendation."
+  >
+  > Source: http://www.martinrinehart.com/frontend-engineering/engineers/html/html-tag-history.html
+
+  > The `<SCRIPT>` tag was "reserved for future use with scripting languages."
+  > It was one of the `<HEAD>` elements.
+* Junio: Primera edición de [**ECMAScript**](https://en.wikipedia.org/wiki/ECMAScript).
+
+### 1998
+
+* Marzo: Netscape publica código fuente de Netscape Communicator y nace
+  **Mozilla**.
+
+### 1999
+
+* Marzo: `XmlHttpRequest`
+
+### 2002
+
+* 23 septiembre: 1er release de **FireFox**.
 
 ### 2004
 
@@ -108,82 +145,77 @@ historia cuanto menos peculiar.
 ### 2007
 
 * Blog post de Eric Miraglia (de YUI): _Module Pattern in JavaScript_.
+* 7 marzo: 1er release de [**MooTools**](https://mootools.net/).
 
 ### 2008
 
 * Mayo: Publicación de _JavaScript: The good parts_ de Douglas Crockford.
+* 2 septiembre: 1er release público de **Google Chrome**.
 
 ### 2009
 
 * Enero: Kevin Dangoor, ingeniero de Mozilla, comienza [**CommonJS**](https://en.wikipedia.org/wiki/CommonJS).
-  > "The CommonJS group defined a module format to solve JavaScript scope issues
-  > by making sure each module is executed in its namespace. This is achieved by
-  > forcing modules to explicitly export those variables it wants to expose to
-  > the “universe,” and also by defining those other modules required to
-  > properly work."
-  > — Webpack Docs
 * 24/25 abril: 1era [JSConf US](http://2009.jsconf.us/)
+* 1 julio: 1er release de [Modernizr](https://modernizr.com/)
 * 27 mayo: 1er release [**Node.js**](https://nodejs.org/).
+* 28 octubre: 1er release de [**Underscore.js**](http://underscorejs.org/).
 * 7/8 noviembre: 1era [JSConf EU](https://www.jsconf.eu/2009/speakers.html)
 
 ### 2010
 
 * 19 febrero: 1er release público de [**Require.js**](https://requirejs.org/) (0.8.0)
-* 12 marzo: Blog post de Ben Cherry: _JavaScript Module pattern in-depht_.
+* 12 marzo: Blog post de Ben Cherry: [_JavaScript Module pattern in-depht_](http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html).
 * 1 junio: Blog post de Alex Sexton: [_How, When, And Why Script Loaders Are Appropriate_](https://docs.microsoft.com/en-us/previous-versions/msdn10/hh227261(v=msdn.10))
-* 15 Nov: Blog post the Ben Alman: [_Immediately-Invoked Function Expression (IIFE)_](http://benalman.com/news/2010/11/immediately-invoked-function-expression/), https://gist.github.com/cowboy/4710214
+* 13 octubre: 1er release de [**Backbone.js**](http://backbonejs.org/).
+* 20 octubre: 1er release de [**AngularJS**](https://angularjs.org/)
+* 15 noviembre: Blog post the Ben Alman: [_Immediately-Invoked Function Expression (IIFE)_](http://benalman.com/news/2010/11/immediately-invoked-function-expression/), https://gist.github.com/cowboy/4710214
+* 16 noviembre: 1er release de [**Express.js**](http://expressjs.com/)
 
 ### 2011
 
 * 6 marzo: [_Using JavaScript closures to create private scopes_](https://lupomontero.com/using-javascript-closures-to-create-private-scopes)
 * 27 marzo: [_A first look at the upcoming JavaScript modules_](https://2ality.com/2011/03/first-look-at-upcoming-javascript.html)
+* 9 junio: 1er release de [**Browserify**](http://browserify.org/)
+* 4 octubre: https://gist.github.com/jrburke/1262861
+* 6/7 octubre: Alex Russell presenta [**Web Components** en Fronteers Conference](https://fronteers.nl/congres/2011/sessions/web-components-and-model-driven-views-alex-russell)
+  por 1era vez.
 * 18 octubre: [**Require.js**](https://requirejs.org/) 1.0.0
 * 21 octubre: [**UMD (Universal Module Definition)**](https://github.com/umdjs/umd)
 * 27 octubre: **Dojo** 1.7.0 introduce [**AMD**](https://en.wikipedia.org/wiki/Asynchronous_module_definition) a Dojo.
+* 8 Dic: 1er release de [**Ember.js**](https://emberjs.com/)
 
 ### 2012
 
+* 12 enero: Grunt 0.1.0
 * Blog post de Addy Osmani: [_Writing Modular JavaScript With AMD, CommonJS & ES Harmony_](https://addyosmani.com/writing-modular-js/)
-* Junio: **CSS3**: mediaqueries recommendation.
+
+### 2013
+
+* 29 mayo: 1er release de [**React**](https://reactjs.org/).
+* 4 julio: Gulp 0.0.1
 
 ### 2014
 
 * 19 febrero: 1er release de [**Webpack**](https://webpack.js.org/)
+* febrero: 1er release de [**Vue.js**](https://vuejs.org/)
 * 28 octubre: **HTML5**
 
 ### 2015
 
-* **ES6**.
+* **ES6 (aka ES2015)**.
 
-***
+### 2016
 
+* 4 abril: [**Grunt**](http://gruntjs.com/) 1.0.0.
+* Aparece soporte (experimental) de _dynamic imports_ en Babel/Webpack.
 
-Script loaders??
+### 2018
 
-Notable mentions?
+* 28 marzo: Blog post de Lin Clark: [_ES modules: A cartoon deep-dive_](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)
+* Mayo: Firefox 60 introduce soporte para **ES Modules** y desde este momento
+  todos los navegadores _de uso masivo_ cuentan con soporte nativo para ES
+  Modules.
 
-Motools, Backbone, Underscore, Ember, Angular, React, Vue, ... Express
+### 2019
 
-* https://github.com/amdjs/amdjs-api/wiki/AMD
-* https://gist.github.com/jrburke/1262861
-* https://www.davidbcalhoun.com/2014/what-is-amd-commonjs-and-umd/
-
-***
-
-## Ejemplos de código
-
-1. Global party
-2. Closures
-
-   https://lupomontero.com/using-javascript-closures-to-create-private-scopes
-
-3. AMD/UMD
-
-   https://github.com/umdjs/umd
-
-4. Require.js
-5. CommonJS
-6. Node.js
-7. NPM
-8. Bundlers
-9. ES Modules
+* Abril: [Memorandum of Understanding Between W3C and WHATWG](https://www.w3.org/2019/04/WHATWG-W3C-MOU.html)
