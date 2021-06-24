@@ -1,7 +1,6 @@
-console.log(myMod);
+// var rainbow = 1;
 
-// console.log(require);
-// console.log(module);
-
-// console.log(import);
-// console.log(export);
+window.onload = function () {
+  rainbowify(document.getElementsByTagName('h1')[0]);
+  greyify(document.getElementsByTagName('h2')[0]);
+};

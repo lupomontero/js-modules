@@ -1,5 +1,6 @@
-import myMod from './my-mod.js';
-// import { foo } from './my-mod.js';
+import { rainbowify, greyify } from './colors.js';
 
-// console.log(foo());
-console.log(myMod.foo());
+window.onload = function () {
+  rainbowify(document.getElementsByTagName('h1')[0]);
+  greyify(document.getElementsByTagName('h2')[0]);
+};
