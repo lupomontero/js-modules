@@ -1,19 +1,22 @@
 # Breve historia de los sistemas de módulos en JavaScript
 
+<!--
 ## Índice
 
 * [Preámbulo](#)
 * [¿Por qué módulos?](#)
-* [1991-1995: Prehistoria](#)
+* [1991-1994: Prehistoria](#)
 * [1995-2001: 1era guerra de los browsers](#)
   - [Ejemplo: Global party](#)
-* [2001-2006: La era oscura](#)
-* [2006-2009: En busca de la luz (jQuery, YUI, Dojo...)](#)
+* [2002-2005: La era oscura](#)
+* [2006-2008: En busca de la luz (jQuery, YUI, Dojo...)](#)
   - [Ejemplo: Clausuras e IIFEs](#)
   - [Ejemplo: jQuery plugin?](#)
-* [2009-2015: Nuevas fronteras (Node.js, NPM, CommonJS, Require.js, AMD, UMD, ...)](#)
+* [2009-2010: Nuevas fronteras (Node.js, NPM, CommonJS, Require.js, AMD, UMD, ...)](#)
   - [Ejemplo: AMD, CommonJS, UMD](#)
   - [Ejemplo: Node.js y NPM](#)
+* [2011-2012: Hacia la universalidad](#)
+* [2013-2014: Bundlers](#)
 * [2015-presente: Consolidación (ES6+, Webpack, Babel, ES Modules)](#)
   - [Ejemplo: Bundlers (webpack)](#)
   - [ES Modules](#)
@@ -38,7 +41,7 @@ historia cuanto menos peculiar**.
 * Arquitectura
 * Colaboración (ecosistema)
 
-## 1991-1995: Prehistoria
+## 1991-1994: Prehistoria
 
 ![](https://applauss.com/wp-content/uploads/2016/08/Tim-Berners-Lee-Dia-Internauta-770x513.jpg)
 
@@ -120,14 +123,14 @@ también **_PHP_**, **_Ruby_** y **_Java_**.
 > The `<SCRIPT>` tag was "reserved for future use with scripting languages."
 > It was one of the `<HEAD>` elements.
 
-## 2001-2006: La era oscura
+## 2002-2005: La era oscura
 
 ![](https://eclecticlightdotcom.files.wordpress.com/2017/08/turnerfishermenatsea.jpg?w=1024)
 
 Terminada la guerra de los browsers, entramos a un período dominado por Internet
 Explorer y un estancamiento en el desarrollo del stack web.
 
-## 2006-2009: En busca de la luz
+## 2006-2008: En busca de la luz
 
 ![](https://hemophilianewstoday.com/wp-content/uploads/2019/12/shutterstock_387741175-1000x480-1-e1576695181709.jpg)
 
@@ -138,7 +141,7 @@ todo esto en gran parte a `jQuery` y `YUI`.
 
 jQuery en particular nos dió una API estable y predecible sobre la que
 
-## 2009-2015: Nuevas fronteras
+## 2009-2010: Nuevas fronteras
 
 ![](https://media.istockphoto.com/vectors/vector-retro-astronaut-couple-on-a-planet-illustration-vector-id1180334708?k=6&m=1180334708&s=612x612&w=0&h=s4bJDIdYDVwiJZOJS78ZeeGqxd0dPH8lCPIR46Kwap4=)
 
@@ -149,11 +152,33 @@ jQuery en particular nos dió una API estable y predecible sobre la que
 > properly work."
 > — Webpack Docs
 
+## 2011-2012: Hacia la universalidad
+
+...
+
+## 2013-2014: Bundlers
+
+...
+
 ## 2015-presente: Consolidación
 
 ...
 
 ***
+-->
+
+## Ejemplos
+
+* [01-browser-global-scripts](./01-browser-global-scripts)
+* [02-browser-closures-global-exports](./02-browser-closures-global-exports)
+* [03-jquery](./03-jquery)
+* [04-node](./04-node)
+* [05-npm](./05-npm)
+* [06-browser-umd-global](./06-browser-umd-global)
+* [07-browser-umd-require](./07-browser-umd-require)
+* [08-browser-commonjs](./08-browser-commonjs)
+* [09-bundlers](./09-bundlers)
+* [10-es-modules](./10-es-modules)
 
 ## Cronología
 
@@ -305,4 +330,8 @@ jQuery en particular nos dió una API estable y predecible sobre la que
 
 ***
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+<!--
+* https://dl.acm.org/doi/pdf/10.1145/3386327
+* https://auth0.com/blog/a-brief-history-of-javascript/
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+-->
