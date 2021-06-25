@@ -1,5 +1,10 @@
 # Breve historia de los sistemas de módulos en JavaScript
 
+Este repo contiene ejemplos (y otras cositas) usadas en una charla en un
+[meetup de LimaJS el 24 de Junio de 2021](https://www.meetup.com/LimaJS/events/kwbkfsyccjbwb/).
+
+[Slides](https://docs.google.com/presentation/d/e/2PACX-1vQudQIMqiLRVfyRUxHId_6hanWwc-b0PpvcjkCx23Fy6KoMiUUcRqEX9mkGpeFcz7GkIha87UerX3J4/pub?start=false&loop=false&delayms=3000)
+
 <!--
 ## Índice
 
